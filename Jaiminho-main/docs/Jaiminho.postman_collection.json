@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "9271c4eb-6c21-45f2-b0be-ba1d11229133",
+		"name": "Jaiminho",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44309/api/email",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r\n  \"assunto\": \"assunto...\",\r\n  \"nome\": \"fabio contabilidade \",\r\n  \"mensagem\": \"teste..1321\",\r\n  \"Remetente\": \"felipearamendes96@gmail.com\",\r\n  \"Destinatario\": \"odair-dantas@hotmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44309/api/email",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44309",
+					"path": [
+						"api",
+						"email"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
